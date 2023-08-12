@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+/*header*/
+.blue-bg{
+    background-color: darkblue;
+    padding: 1.5em 0;
+    width: 100%;
+}
+
+header .container{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-title{
+    color: yellow;
+    font-size: 3em;
+}
+
+/*main*/
+
+/*thumb*/
+.thumb-bg{
+    width: 100%;
+    height: 450px;
+    background-image: url("./images/cover-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.thumb-bg .container{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-white{
+    padding-top: 4.5em;
+    color: white;
+}
+
+.text-white h2{
+    font-size: 2.3em;
+}
+.text-white span{
+    font-size: 0.8em;
+}
+/*/thumb*/
+
+/*paragrafi*/
+
+p.section-one {
+    font-size: 1.2em;
+    padding: 1.5em;
+}
+
+.img-container-one{
+    width: 350px;
+}
+
+.img-container-one img{
+    width: 100%;
+}
+
+.my-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.my-flex div {
+    max-width: 60%;
+}
+
+.my-paragraph h3{
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.my-paragraph p{
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+.img-container-two img{
+    width: 100%;
+    padding-bottom: 1.5em;
+}
+
+.img-container-three{
+    width: 400px;
+  
+}
+
+.img-container-three img{
+    width: 100%;
+}
+
+main{
+    padding-bottom: 2.5em;
+}
