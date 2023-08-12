@@ -109,3 +109,21 @@ p.section-one {
 main{
     padding-bottom: 2.5em;
 }
+/* /main --------------------*/
+
+/*footer -----*/
+footer span{
+    color: white;
+}
+
+.my-flex-footer{
+ display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;   
+}
+
+footer a{
+    color: white;
+}
